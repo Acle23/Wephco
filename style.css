@@ -248,7 +248,7 @@ button {
 .line {
   width: 2px;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  transform: rotate(-90deg);
+  /* transform: rotate(-90deg); */
 }
 
 .councils2 {
