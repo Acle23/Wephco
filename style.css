@@ -550,7 +550,7 @@ footer {
     font-size: 34px !important;
   }
   .line {
-    transform: rotate(-180deg) !important;
+    transform: rotate(-180deg);
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     width: 95% !important;
