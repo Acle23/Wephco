@@ -107,6 +107,29 @@ button {
   padding: 7px;
 }
 
+.top_navbar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 500px)  {
+  .top_navbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 499.5px) {
+  .btn1, .btn2 {
+    display: none;
+  }
+}
+
+.top_navbar .hamburger a {
+  font-size: 25px;
+  color: #000;
+}
+
 .section1 {
   margin: auto;
   display: flex;
@@ -302,7 +325,7 @@ button {
   text-align: center;
   font-size: 61.06px;
   font-weight: 700;
-  padding-bottom: 90px;
+  padding-bottom: 5ch;
   line-height: 70px;
   width: 100%;
 }
@@ -312,7 +335,6 @@ button {
   max-width: 1440px;
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -325,7 +347,7 @@ button {
   background-color: #141414;
   border-radius: 50%;
   box-shadow: 30px 0px 0 0px #d9d9d9, 60px 0px 0 0px #d9d9d9;
-  margin-bottom: 20px;
+  margin-bottom: 2ch;
 }
 
 .dot2 {
@@ -337,7 +359,7 @@ button {
   background-color: #141414;
   border-radius: 50%;
   box-shadow: 30px 0px 0 0px #d9d9d9, 60px 0px 0 0px #d9d9d9;
-  margin-bottom: 20px;
+  margin-bottom: 2ch;
 }
 
 .dot3 {
@@ -349,7 +371,11 @@ button {
   background-color: #141414;
   border-radius: 50%;
   box-shadow: 30px 0px 0 0px #d9d9d9, 60px 0px 0 0px #d9d9d9;
-  margin-bottom: 20px;
+  margin-bottom: 2ch;
+}
+
+.step-note {
+  text-align: center;
 }
 
 .section5 {
@@ -583,6 +609,7 @@ footer {
 
 @media screen and (max-width: 660px) {
   .steps-box {
+    align-items: center;
     flex-direction: column;
     gap: 2ch;
   }
